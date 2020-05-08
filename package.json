@@ -16,7 +16,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.16.4",
     "mocha": "^7.1.2",
-    "mongoose": "^5.4.19",
+    "mongoose": "^5.7.5",
     "node-fetch": "^2.6.0",
     "pem": "^1.14.4",
     "protractor": "^5.4.4",
