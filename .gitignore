@@ -1,2 +1,10 @@
 node_modules
 dist
+.env
+
+
+#Keys
+*.pem
+*.key
+*.pfx
+*.crt

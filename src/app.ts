@@ -3,7 +3,7 @@ import cors from 'cors'
 import mongoose from 'mongoose'
 
 import routes from './routes'
-
+require('dotenv').config()
 class App {
   public express: express.Application
 
@@ -21,7 +21,7 @@ class App {
   }
 
   private database (): void {
-    mongoose.connect(`mongodb://${process.env.DB_HOST}:27017/tsexample`, { useNewUrlParser: true })
+    mongoose.connect(`mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/getjus`, { useNewUrlParser: true })
   }
 
   private routes (): void {

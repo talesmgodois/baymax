@@ -9,9 +9,20 @@
     "build": "sucrase ./src -d ./dist --transforms typescript,imports"
   },
   "dependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/mocha": "^7.0.2",
+    "assert": "^2.0.0",
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.16.4",
-    "mongoose": "^5.4.19"
+    "mocha": "^7.1.2",
+    "mongoose": "^5.4.19",
+    "node-fetch": "^2.6.0",
+    "pem": "^1.14.4",
+    "protractor": "^5.4.4",
+    "puppeteer": "^3.0.2",
+    "request": "^2.88.2",
+    "selenium-webdriver": "^4.0.0-alpha.7"
   },
   "devDependencies": {
     "@types/cors": "^2.8.4",
