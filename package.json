@@ -17,7 +17,7 @@
     "express": "^4.16.4",
     "mocha": "^7.1.2",
     "mongoose": "^5.4.19",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "pem": "^1.14.4",
     "protractor": "^5.4.4",
     "puppeteer": "^3.0.2",
